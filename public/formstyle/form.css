@@ -1,0 +1,48 @@
+h1,h3{
+    color: brown;
+    margin: auto;
+   text-align: center;
+}
+div{
+    background-color: blanchedalmond;
+}
+a {
+    text-decoration: none;
+    color: brown;
+    border: none;
+}
+button {
+    background-color: blanchedalmond;
+    color: brown;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: 1px solid salmon;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-left: 20px;
+}
+form{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 1px solid salmon;
+    border-radius: 10px ;
+    width: 350px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid brown;
+    border-radius: 4px;
+    color: brown;
+    box-sizing: border-box;
+}
+input::placeholder {
+    color: brown;
+    
+}
+

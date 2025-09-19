@@ -1,0 +1,59 @@
+h1 {
+    color: brown;
+    margin: auto;
+   text-align: center;
+   font-size: 45px;
+}
+
+button {
+    background-color: blanchedalmond;
+    color: brown;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: 1px solid salmon;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    
+    margin-left: 20px;
+}
+ 
+button:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.post {
+    border: 1px solid salmon;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    width: 350px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.post:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+}   
+

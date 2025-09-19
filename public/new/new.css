@@ -1,0 +1,31 @@
+h1{
+    color: brown;
+    margin: auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+div{
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid salmon;
+    margin: auto;
+}
+button {
+    background-color: blanchedalmond;
+    color: brown;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: 1px solid salmon;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-left: 20px;
+}
+h3,h4{
+    color: brown;
+    text-align: center;
+}
