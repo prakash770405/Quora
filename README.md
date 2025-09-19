@@ -11,7 +11,7 @@ A minimal Express.js + EJS learning app that demonstrates a basic in-memory post
 - Routes
 - Views & static assets
 - Notes & caveats
-- Future improvements makdown
+- Future improvements markdown
 
 ## Prerequisites
 
